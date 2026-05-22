@@ -1,9 +1,12 @@
 def factorial(n):
-    fact = 1
 
-    for i in range(1, n + 1):
-        fact = fact * i
+    if n == 0:
+        return 1
+    else :
+        res = n * factorial(n - 1)
+        return res
 
-    return fact
+n = int(input("Enter a number: "))
+res = factorial(n)
+print(res)
 
-print(factorial(5))
