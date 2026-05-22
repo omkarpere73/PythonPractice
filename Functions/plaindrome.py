@@ -1,7 +1,9 @@
 def palindrome(text):
     if text == text[::-1]:
-        return "PALINDROME"
-    else :
-        return "NOT PALINDROME"
+        return "Palindrome"
+    else:
+        return "Not Palindrome"
 
-print(palindrome("Omkar"))
+text = str(input("Enter a text: "))
+res = palindrome(text)
+print(res)
