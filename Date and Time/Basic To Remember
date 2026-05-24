@@ -1,0 +1,7 @@
+datetime.now() → current date and time
+date.today() → current date only
+timedelta → add/subtract dates
+strftime() → formatting
+strptime() → parsing string to date
+sleep() → delay program execution
+calendar → display calendars
