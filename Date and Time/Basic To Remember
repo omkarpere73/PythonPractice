@@ -5,3 +5,17 @@ strftime() → formatting
 strptime() → parsing string to date
 sleep() → delay program execution
 calendar → display calendars
+
+Common  Format          Codes
+Code	Meaning	        Example
+%d	    Day	            24
+%m	    Month	        05
+%Y	    Full Year	    2026
+%y	    Short Year	    26
+%H	    Hour (24h)	    14
+%I	    Hour (12h)	    02
+%M	    Minutes	        30
+%S	    Seconds	        45
+%p	    AM/PM	        PM
+%A	    Full Weekday	Saturday
+%B	    Full Month	    May
