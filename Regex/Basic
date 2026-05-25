@@ -1,0 +1,43 @@
+Regex helps in:
+Searching
+Matching
+Validation
+Extraction
+Replacement
+
+Most used methods:
+re.search()
+re.match()
+re.findall()
+re.sub()
+re.split()
+
+Common Real-World Regex Examples
+Use Case	        Pattern
+Email	            ^[\w\.-]+@[\w\.-]+\.\w+$
+Phone	            ^[6-9]\d{9}$
+PIN Code	        ^\d{6}$
+Username	        ^[a-zA-Z0-9_]{4,15}$
+URL	                https?://\S+
+
+Important Regex Symbols
+Symbol	        Meaning
+.	            Any character
+^	            Start of string
+$	            End of string
+*	            0 or more
++	            1 or more
+?	            0 or 1
+{}	            Exact repetitions
+[]	            Character set
+|	            OR
+()	            Grouping
+
+Special Character Classes
+Pattern	        Meaning
+\d	            Digit
+\D	            Non-digit
+\w	            Word character
+\W	            Non-word character
+\s	            Whitespace
+\S	            Non-whitespace
